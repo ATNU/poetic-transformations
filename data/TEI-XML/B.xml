@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pakistan (published: B)</title>
+            <author>Moniza Alvi</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Poetic Transformations Project</authority>
+            <idno type="PTid">B</idno>
+          </publicationStmt>
+         <sourceDesc>
+            <p>Book version: Moniza Alvi, At the Time of Partition. Tarset: Bloodaxe Books, 2013, pp. 14-18.</p>
+         </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+
+<pb n="14"/>
+         <div type="poem">
+            <head xml:id="B.heading1">2. Must We Go?</head>
+            
+            <lg>
+               <l xml:id="B.1">To place myself in my grandmother's shoes,</l>
+               <l xml:id="B.2">her chappals paired in the bedroom cool,</l>
+            </lg>
+            <lg>
+               <l xml:id="B.3">the mahogany dark,</l>
+               <l xml:id="B.4">lying by the prayer mat, facing Mecca,</l>
+            </lg>
+            <lg>
+               <l xml:id="B.5">awaiting her smaller, browner feet — </l>
+               <l xml:id="B.6">to plant my feet there,</l>
+            </lg>
+            <lg>
+               <l xml:id="B.7">or here, in a line of words</l>
+               <l xml:id="B.8">securely on the page.</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.9">To move house is one thing.</l>
+               <l xml:id="B.10">To leave your country another.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.11">But to leave it</l>
+               <l xml:id="B.12">because it no longer wishes</l>
+            </lg>
+            <lg>
+               <l xml:id="B.13">to attach itself to you,</l>
+               <l xml:id="B.14">doesn't at all desire</l>
+            </lg>
+            <lg>
+               <l xml:id="B.15">to be the ground under your feet,</l>
+               <l xml:id="B.16">to feel compelled to leave it</l>
+            </lg>
+            <lg>
+               <l xml:id="B.17">for one which you had always known</l>
+               <l xml:id="B.18">to be a corner of your own,</l>
+            </lg>
+            <lg>
+               <l xml:id="B.19">but which has startlingly, deliriously</l>
+               <l xml:id="B.20">become another — </l>
+            </lg>
+            <pb n="15"/>
+            <lg>
+               <l xml:id="B.21">and which beckons</l>
+               <l xml:id="B.22">as if it had a hand to beckon with,</l>
+            </lg>
+            <lg>
+               <l xml:id="B.23">and which calls you,</l>
+               <l xml:id="B.24">as if a country had a single voice.</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.25"><hi rend="italic">Amma</hi> they demand,</l>
+               <l xml:id="B.26">her protesting children.</l>
+               <l xml:id="B.27" rend="italic">Amma, must we go?</l>
+            </lg>
+            <lg>
+               <l xml:id="B.28" rend="italic">Can I take my cricket bat to Pakistan?</l>
+               <l xml:id="B.29" rend="italic">And what about school?</l>
+            </lg>
+            <lg>
+               <l xml:id="B.30">Only Athar has no questions.</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.31">The cards had been dealt</l>
+               <l xml:id="B.32">by a firm, if not a sure hand.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.33">Ludhiana to India. West Punjab to Pakistan.</l>
+               <l xml:id="B.34">East Bengal to Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.35">Amritsar to India. Srinagar to India.</l>
+               <l xml:id="B.36">Lahore to Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.37">The Empire held fast like a sheet — </l>
+               <l xml:id="B.38">and shook out.</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <pb n="16"/>
+            <lg>
+               <l xml:id="B.39">Doubt was an awkward thing — </l>
+               <l xml:id="B.40">there was no room for doubt.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.41">At the margin of the great convullsion</l>
+               <l xml:id="B.42">her small household convulsed.</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.43">Pakistan was what it amounted to</l>
+               <l xml:id="B.44" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="B.45">In the salting of lassi</l>
+               <l xml:id="B.46">in the knuckledents in dough</l>
+               <l xml:id="B.47" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="B.48">In the pleating of a sari</l>
+               <l xml:id="B.49">in the sweeping of the hallway</l>
+               <l xml:id="B.50" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="B.51">Between the question and its answer</l>
+               <l xml:id="B.52" rend="right">Pakistan</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.53">Rumours flew on the wind — </l>
+               <l xml:id="B.54">Nails of steel on the wind — </l>
+            </lg>
+            <lg>
+               <l xml:id="B.55" rend="italic">Infidels! Rapists!</l>
+            </lg>
+            <lg>
+               <l xml:id="B.56">Honour was the jewel,</l>
+               <l xml:id="B.57">not mother, sister.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.58">To save their honour</l>
+               <pb n="17"/>
+               <l xml:id="B.59">bonfires were lit</l>
+               <l xml:id="B.60">and the women burned.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.61" rend="italic">They asked me to do this,</l>
+               <l xml:id="B.62" rend="italic">but I ran away.</l>
+               <l xml:id="B.63" rend="italic">I couldn't set fire to my sister.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.64">To protect their honour</l>
+            </lg>
+            <lg>
+               <l xml:id="B.65">ninety women jumped into a well.</l>
+               <l xml:id="B.66">There wasn't enough water</l>
+               <l xml:id="B.67">to drown them all.</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.68">And the rumour of a rumour</l>
+            </lg>
+            <lg>
+               <l xml:id="B.69">And the acting on a rumour</l>
+            </lg>
+            <lg>
+               <l xml:id="B.70">And the kernel of a rumour</l>
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <lg>
+               <l xml:id="B.71">The wisdom was to go.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.72">Departure — </l>
+               <l  xml:id="B.73" rend="right">the despearate,</l>
+            </lg>
+            <lg>
+               <l xml:id="B.74">the unimaginable thing</l>  
+            </lg>
+            <milestone unit="section" rend="asterisk left"/>
+            <pb n="18"/>
+            <lg>
+               <l xml:id="B.75">Already</l>
+               <l xml:id="B.76">her neighbourhood was emptying — </l>
+               <l xml:id="B.77">whole famlies had stolen away.</l>
+            </lg>
+            <lg>
+               <l xml:id="B.78">Which way to face?</l>
+               <l xml:id="B.79">She wrote to her son in England:</l>
+            </lg>
+            <lg>
+               <l xml:id="B.80" rend="italic">I pray for our safety at this time.</l>
+               <l xml:id="B.81" rend="italic">We will go by bus to Lahore.</l>
+            </lg>
+            
+         </div>
+
+
+      </body>
+   </text>
+</TEI>

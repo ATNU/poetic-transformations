@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pakistan (draft: M4)</title>
+            <author>Moniza Alvi</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Poetic Transformations Project</authority>
+            <idno type="PTid">4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Alvi (Moniza) Archive, Newcastle University Special Collections, GB 186 MA/5.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange>
+               <change xml:id="change-a" rend="blue">Original pen, blue ink</change>
+               <change xml:id="change-b" rend="black">Second phase of revision, black pen</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="poem">
+            <head xml:id="M4.heading1" rend="underline">Pakistan, they said to her</head>
+            <lg>
+               <l xml:id="M4.1">But what was Pakistan?</l>
+               <l xml:id="M4.2">A <subst>
+                     <del change="#change-b">country</del>
+                     <add place="below" change="#change-b"><subst>
+                           <del>gathering</del>
+                           <add place="above">massing</add>
+                        </subst></add>
+                  </subst>, a bolt-hole, a road of bone?</l>
+            </lg>
+            <lg>
+               <l xml:id="M4.3">in the <add change="#change-b" place="inline">re</add>folding of saris </l>
+               <l xml:id="M4.4">and the salting of lassi — </l>
+               <l xml:id="M4.5" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="M4.6">Along the length of a plait,</l>
+               <l xml:id="M4.7">in the journey of ant — </l>
+               <l xml:id="M4.8" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="M4.9">It held out its different sets of arms</l>
+               <l xml:id="M4.10">offered its hard or soft embrace</l>
+               <l xml:id="M4.11"><del change="#change-b">The innumerable Pakistans</del></l>
+            </lg>
+            <lg>
+               <l xml:id="M4.12">but it wasn't half empty,</l>
+               <l xml:id="M4.13"><subst>
+                     <del>and what</del>
+                     <add place="above">all</add>
+                  </subst> there was couldn't be passed aid</l>
+            </lg>
+            <lg>
+               <l xml:id="M4.14"><del>Pakistan raging on subdued</del></l>
+               <l xml:id="M4.15">a restless tiger, <subst>
+                     <del>lying in wait</del>
+                     <add>Pakistan lay in wait</add>
+                  </subst>
+               </l>
+            </lg>
+            <lg change="#change-b">
+               <l xml:id="M4.16">Would there really be marches</l>
+               <l xml:id="M4.17">the other way</l>
+            </lg>
+            <lg change="#change-b #change-a">
+               <l xml:id="M4.18"><del change="#change-a #change-b">Pakistan if</del> Where would <subst change="#change-b">
+                     <del>she</del>
+                     <add place="above">they</add>
+                  </subst> live<lb/> and work? </l>
+               <l xml:id="M4.19">How would they</l>
+            </lg>
+            <lg>
+               <l xml:id="M4.20"><del change="#change-b">A rest<subst change="#change-a">
+                        <del>less</del>
+                        <add>ive</add>
+                     </subst> tiger, Pakistan lay in wait(?)</del></l>
+            </lg>
+            <lg>
+               <l xml:id="M4.21" change="#change-a">At what would they work?</l>
+            </lg>
+
+         </div>
+
+
+      </body>
+   </text>
+</TEI>

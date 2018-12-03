@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pakistan (draft: M1)</title>
+            <author>Moniza Alvi</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Poetic Transformations Project</authority>
+            <idno type="PTid">M1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Alvi (Moniza) Archive, Newcastle University Special Collections, GB 186 MA/5.</p>
+            <!-- We could do a full manuscript description here -->
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
+            <listChange>
+               <change xml:id="change-a" rend="blue">Original, pen, blue ink</change>
+               <change xml:id="change-b" rend="blue">Second phase of revision in same colour</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="poem">
+            <head xml:id="M1.heading1" rend="underline">Pakistan</head>
+            <lg>
+               <l xml:id="M1.1" rend="underline">Pakistan, they said to her. <note type="authorial">title</note></l>
+               <l xml:id="M1.2">But what was Pakistan? A country,</l>
+               <l xml:id="M1.3">a bolt-hole, a land of bone?</l>
+               <l xml:id="M1.4">It held out very different sets of arms</l>
+               <l xml:id="M1.5">offered its hard or soft embrace</l>
+               <l xml:id="M1.6">The filling-up with Pakistan</l>
+               <l xml:id="M1.7">brimming over, Spilling.</l>
+               <l xml:id="M1.8">To the East and West,</l>
+               <l xml:id="M1.9">wh<subst change="#change-b">
+                     <del>ichever</del>
+                     <add place="above">erever</add>
+                  </subst>
+                  <del change="#change-b">way</del> you looked,</l>
+               <l xml:id="M1.10">Pakistan persisted.</l>
+               <l xml:id="M1.11">But <subst change="#change-b">
+                     <del>the country</del>
+                     <add place="above">it</add>
+                  </subst> wasn't half-empty</l>
+               <l xml:id="M1.12">and what was there</l>
+               <l xml:id="M1.13">couldn't be poured away.</l>
+               <!-- Where should this note be inserted? Is it in the right place? -->
+               <note place="margin" type="insertion" change="#change-b">
+                  <l>In the folds<lb/> of saris,</l>
+                  <l>In the salting<lb/> of lassi, — </l>
+                  <l>Pakistan!</l>
+               </note>
+               <l xml:id="M1.14">Would there really be <subst change="#change-b">
+                     <del>mass marched</del>
+                     <add place="above">
+                        <subst change="#change-b">
+                           <del>migration</del>
+                           <add place="above" rend="caret">marches</add>
+                        </subst>
+                     </add>
+                  </subst>
+               </l>
+               <l xml:id="M1.15">the other way, Pakistan</l>
+               <l xml:id="M1.16">Was <subst change="#change-b">
+                     <del>the promised land</del>
+                     <add place="above" rend="caret">Pakistan</add>
+                  </subst> a resting tiger</l>
+               <l xml:id="M1.17">front paws, back paws.</l>
+               <l xml:id="M1.18"><del change="#change-b">Pakistan</del> lay in wait</l>
+            </lg>
+
+            <milestone unit="section" rend="line"/>
+
+            <lg>
+               <l xml:id="M1.19">In the breadth of a hair</l>
+               <l xml:id="M1.20">In the journey of an ant</l>
+            </lg>
+
+            <lg>
+               <l xml:id="M1.21">In <del change="#change-b">the salting of</del> lassi</l>
+               <l xml:id="M1.22"><del change="#change-b">and kneading</del> of dough</l>
+            </lg>
+
+            <lg>
+               <l xml:id="M1.23" rend="right">Pakistan!</l>
+            </lg>
+         </div>
+
+
+      </body>
+   </text>
+</TEI>
