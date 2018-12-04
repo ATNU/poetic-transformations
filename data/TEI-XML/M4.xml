@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Poetic Transformations Project</authority>
-            <idno type="PTid">4</idno>
+            <idno type="PTid">M4</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Alvi (Moniza) Archive, Newcastle University Special Collections, GB 186 MA/5.</p>
@@ -42,54 +42,63 @@
                   </subst>, a bolt-hole, a road of bone?</l>
             </lg>
             <lg>
-               <l xml:id="M4.3">in the <add change="#change-b" place="inline">re</add>folding of saris </l>
+               <l xml:id="M4.3">In the <add change="#change-b" place="inline">re</add>folding of saris </l>
                <l xml:id="M4.4">and the salting of lassi — </l>
                <l xml:id="M4.5" rend="right">Pakistan</l>
             </lg>
             <lg>
                <l xml:id="M4.6">Along the length of a plait,</l>
-               <l xml:id="M4.7">in the journey of ant — </l>
+               <l xml:id="M4.7">in the journey of an ant — </l>
                <l xml:id="M4.8" rend="right">Pakistan</l>
             </lg>
             <lg>
                <l xml:id="M4.9">It held out its different sets of arms</l>
                <l xml:id="M4.10">offered its hard or soft embrace</l>
+						 </lg>
+						 <lg>
                <l xml:id="M4.11"><del change="#change-b">The innumerable Pakistans</del></l>
             </lg>
+						<lg>
+							<l xml:id="M4.12">To the East and West</l>
+							<l xml:id="M4.13">the <subst>
+									<del change="#change-b">promised land</del>
+									<add place="below" change="#change-b">Pakistan</add>
+								</subst> persisted</l>
+						</lg>
             <lg>
-               <l xml:id="M4.12">but it wasn't half empty,</l>
-               <l xml:id="M4.13"><subst>
+               <l xml:id="M4.14">but it wasn't half empty,</l>
+               <l xml:id="M4.15"><subst>
                      <del>and what</del>
                      <add place="above">all</add>
-                  </subst> there was couldn't be passed aid</l>
+                  </subst> there was couldn't be passed aid</l> <!-- past(?) -->
             </lg>
             <lg>
-               <l xml:id="M4.14"><del>Pakistan raging on subdued</del></l>
-               <l xml:id="M4.15">a restless tiger, <subst>
+               <l xml:id="M4.16"><del>Pakistan raging on subdued</del></l>
+               <l xml:id="M4.17">a restless tiger, <subst>
                      <del>lying in wait</del>
                      <add>Pakistan lay in wait</add>
                   </subst>
                </l>
             </lg>
             <lg change="#change-b">
-               <l xml:id="M4.16">Would there really be marches</l>
-               <l xml:id="M4.17">the other way</l>
+               <l xml:id="M4.18">Would there really be marches</l>
+               <l xml:id="M4.19">the other way</l>
             </lg>
             <lg change="#change-b #change-a">
-               <l xml:id="M4.18"><del change="#change-a #change-b">Pakistan if</del> Where would <subst change="#change-b">
+               <l xml:id="M4.20"><del change="#change-a #change-b">Pakistan if</del> Where would <subst change="#change-b">
                      <del>she</del>
                      <add place="above">they</add>
                   </subst> live<lb/> and work? </l>
-               <l xml:id="M4.19">How would they</l>
+               <l xml:id="M4.21">How would they</l>
             </lg>
             <lg>
-               <l xml:id="M4.20"><del change="#change-b">A rest<subst change="#change-a">
+               <l xml:id="M4.22"><del change="#change-b">A rest<subst change="#change-a">
                         <del>less</del>
                         <add>ive</add>
                      </subst> tiger, Pakistan lay in wait(?)</del></l>
             </lg>
             <lg>
-               <l xml:id="M4.21" change="#change-a">At what would they work?</l>
+               <l xml:id="M4.23" change="#change-a">At what would they work?</l>
             </lg>
 
          </div>
