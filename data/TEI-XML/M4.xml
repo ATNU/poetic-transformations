@@ -70,7 +70,7 @@
                <l xml:id="M4.15"><subst>
                      <del>and what</del>
                      <add place="above">all</add>
-                  </subst> there was couldn't be passed aid</l> <!-- past(?) -->
+                  </subst> there was couldn't be past aid</l> 
             </lg>
             <lg>
                <l xml:id="M4.16"><del>Pakistan raging on subdued</del></l>
@@ -85,20 +85,21 @@
                <l xml:id="M4.19">the other way</l>
             </lg>
             <lg change="#change-b #change-a">
-               <l xml:id="M4.20"><del change="#change-a #change-b">Pakistan if</del> Where would <subst change="#change-b">
+               <l xml:id="M4.20"><del change="#change-a #change-b">Pakistan <unclear>if</unclear></del></l>
+               <l xml:id="M4.21">Where would <subst change="#change-b">
                      <del>she</del>
                      <add place="above">they</add>
                   </subst> live<lb/> and work? </l>
-               <l xml:id="M4.21">How would they</l>
+               <l xml:id="M4.22">How would they <supplied>live and work</supplied></l>
             </lg>
             <lg>
-               <l xml:id="M4.22"><del change="#change-b">A rest<subst change="#change-a">
+               <l xml:id="M4.23"><del change="#change-b">A rest<subst change="#change-a">
                         <del>less</del>
                         <add>ive</add>
-                     </subst> tiger, Pakistan lay in wait(?)</del></l>
+                     </subst> tiger, Pakistan lay in wait</del></l>
             </lg>
             <lg>
-               <l xml:id="M4.23" change="#change-a">At what would they work?</l>
+               <l xml:id="M4.24" change="#change-a">At what would they work?</l>
             </lg>
 
          </div>

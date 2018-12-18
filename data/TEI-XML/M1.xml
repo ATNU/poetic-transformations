@@ -34,13 +34,13 @@
          <div type="poem">
             <head xml:id="M1.heading1" rend="underline">Pakistan</head>
             <lg>
-               <l xml:id="M1.1" rend="underline">Pakistan, they said to her. <note type="authorial">title</note></l>
+               <l xml:id="M1.1" rend="underline">Pakistan, they said to her. <note type="authorial">title!</note></l>
                <l xml:id="M1.2">But what was Pakistan? A country,</l>
                <l xml:id="M1.3">a bolt-hole, a land of bone?</l>
                <l xml:id="M1.4">It held out very different sets of arms</l>
-               <l xml:id="M1.5">offered its hard or soft embrace</l>
-               <l xml:id="M1.6">The filling up with Pakistan</l> <!-- wth (?)-->
-               <l xml:id="M1.7">brimming over, Spilling.</l>
+               <l xml:id="M1.5">offered its hard or soft embrace.</l>
+               <l xml:id="M1.6">The filling up with Pakistan</l> 
+               <l xml:id="M1.7">brimming over, spilling.</l>
                <l xml:id="M1.8">To the East and West,</l>
                <l xml:id="M1.9">wh<subst change="#change-b">
                      <del>ichever</del>
@@ -56,12 +56,12 @@
                <l xml:id="M1.13">couldn't be poured away.</l>
                <!-- Where should this note be inserted? Is it in the right place? -->
                <note place="margin" type="insertion" change="#change-b">
-                  <l>In the folds<lb/> of saris,</l>
-                  <l>In the salting<lb/> of lassi, — </l>
-                  <l>Pakistan!</l>
+                  <l xml:id="M1.A">In the folding<lb/> of saris,</l>
+                  <l xml:id="M1.B">In the salting<lb/> of lassi, — </l>
+                  <l xml:id="M1.C">Pakistan?</l>
                </note>
                <l xml:id="M1.14">Would there really be <subst change="#change-b">
-                     <del>mass marched</del>
+                     <del>mass movement</del>
                      <add place="above">
                         <subst change="#change-b">
                            <del>migration</del>
@@ -70,16 +70,16 @@
                      </add>
                   </subst>
                </l>
-               <l xml:id="M1.15">the other way, Pakistan</l>
+               <l xml:id="M1.15">the other way.</l>
                <l xml:id="M1.16">Was <subst change="#change-b">
                      <del>the promised land</del>
                      <add place="above" rend="caret">Pakistan</add>
                   </subst> a resting tiger</l>
                <l xml:id="M1.17">front paws, back paws.</l>
-               <l xml:id="M1.18"><del change="#change-b">Pakistan</del> lay in wait</l>
+               <l xml:id="M1.18"><del change="#change-b">Pakistan</del> lay in wait.</l>
             </lg>
 
-            <milestone unit="section" rend="line"/>
+            <milestone unit="section" rend="double-line centre"/>
 
             <lg>
                <l xml:id="M1.19">In the breadth of a hair</l>
@@ -87,12 +87,12 @@
             </lg>
 
             <lg>
-               <l xml:id="M1.21">In <del change="#change-b">the salting of</del> lassi</l>
-               <l xml:id="M1.22"><del change="#change-b">and kneading</del> of dough</l>
+               <l xml:id="M1.21" corresp="#M1.A" ><del change="#change-b">In the salting of lassi</del></l>
+               <l xml:id="M1.22"><del change="#change-b">and kneading of dough</del></l>
             </lg>
 
             <lg>
-               <l xml:id="M1.23" rend="right">Pakistan!</l>
+               <l xml:id="M1.23" rend="centre-right">Pakistan!</l>
             </lg>
          </div>
 

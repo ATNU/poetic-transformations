@@ -21,9 +21,9 @@
    <text>
       <body>
 
-<pb n="14"/>
+<pb n="14"/>         
          <div type="poem">
-            <head xml:id="B.heading1">2. Must We Go?</head>
+            <head xml:id="B.heading1">2  Must We Go?</head>
 
             <lg>
                <l xml:id="B.1">To place myself in my grandmother's shoes,</l>
@@ -37,7 +37,7 @@
                <l xml:id="B.5">awaiting her smaller, browner feet — </l>
                <l xml:id="B.6">to plant my feet there,</l>
             </lg>
-            <lg>
+            <lg> 
                <l xml:id="B.7">or here, in a line of words</l>
                <l xml:id="B.8">securely on the page.</l>
             </lg>
@@ -191,7 +191,7 @@
             <lg>
                <l xml:id="B.75">Already</l>
                <l xml:id="B.76">her neighbourhood was emptying — </l>
-               <l xml:id="B.77">whole famlies had stolen away.</l>
+               <l xml:id="B.77">whole families had stolen away.</l>
             </lg>
             <lg>
                <l xml:id="B.78">Which way to face?</l>
