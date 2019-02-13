@@ -1,97 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Pakistan (draft: M2)</title>
-            <author>Moniza Alvi</author>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Poetic Transformations Project</authority>
-            <idno type="PTid">M2</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Alvi (Moniza) Archive, Newcastle University Special Collections, XXXXX</p> <!-- What's the MS call number? -->
-            <!-- We could do a full manuscript description here -->
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <creation>
-            <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
-            <listChange>
-               <change xml:id="change-a" rend="blue">Original, pen, blue ink</change>
-               <change xml:id="change-b" rend="blue">Second phase of revision in same colour</change>
-            </listChange>
-         </creation>
-      </profileDesc>
-   </teiHeader>
-   <text>
-      <body>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Pakistan (draft: M2)</title>
+				<author>Moniza Alvi</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Poetic Transformations Project</authority>
+				<idno type="PTid">M2</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Alvi (Moniza) Archive, Newcastle University Special Collections, XXXXX</p>
+				<!-- What's the MS call number? -->
+				<!-- We could do a full manuscript description here -->
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
+				<listChange>
+					<change xml:id="change-a" rend="blue">Original, pen, blue ink</change>
+					<change xml:id="change-b" rend="blue">Second phase of revision in same colour</change>
+				</listChange>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
 
-         <div type="poem">
-            <head xml:id="M2.heading1" rend="underline">Pakistan, they said to her</head>
-            <lg>
-               <l xml:id="M2.1">But what was Pakistan? A country</l>
-               <l xml:id="M2.2">a bolt-hole, a land of bone?</l>
-						</lg>
+			<div type="poem">
+				<head xml:id="M2.heading1" rend="underline">Pakistan, they said to her</head>
+				<lg>
+					<l xml:id="M2.1">But what was Pakistan? A country</l>
+					<l xml:id="M2.2">a bolt-hole, a land of bone?</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.3">It held out very different sets of arms</l>
-               <l xml:id="M2.4">offered its hard or soft embrace</l>
-						</lg>
+				<lg>
+					<l xml:id="M2.3">It held out very different sets of arms</l>
+					<l xml:id="M2.4">offered its hard or soft embrace</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.5">The filling up with Pakistan.</l>
-               <l xml:id="M2.6">brimming over, spilling.</l>
-						</lg>
+				<lg>
+					<l xml:id="M2.5">The filling up with Pakistan.</l>
+					<l xml:id="M2.6">brimming over, spilling.</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.7">To the East and West, where<add place="above">ver</add> you looked</l>
-               <l xml:id="M2.8">Pakistan persisted.</l>
-						</lg>
+				<lg>
+					<l xml:id="M2.7">To the East and West, where<add place="above">ver</add>
+						you looked</l>
+					<l xml:id="M2.8">Pakistan persisted.</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.9">But the country wasn't half empty</l>
-               <l xml:id="M2.10">What was there couldn't be poured away</l>
-						</lg>
+				<lg>
+					<l xml:id="M2.9">But the country wasn't half empty</l>
+					<l xml:id="M2.10">What was there couldn't be poured away</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.11">So would
-								 		<subst change="#change-b">
-												<del>there be migration</del>
-                     		<add place="above">
-	                        <subst change="#change-b">
-	                           <del>Pakistan be on the move</del>
-	                           <add place="above">there really be movement</add>
-	                        </subst>
-                     		</add>
-												<add change="change-b" place="below">
-														<del>there be </del>
-														<hi rend="underline">movement</hi>
-												</add>
-                  </subst>
-               </l>
-               <l xml:id="M2.12">the other way?</l>
-						</lg>
+				<lg>
+					<l xml:id="M2.11">So would
+						<subst change="#change-b">
+							<del>there be migration</del>
+							<add place="above">
+								<subst change="#change-b">
+									<del>Pakistan be on the move</del>
+									<add place="above">there really be movement</add>
+								</subst>
+							</add>
+							<add change="change-b" place="below">
+								<del>there be
+								</del>
+								<hi rend="underline">movement</hi>
+							</add>
+						</subst>
+					</l>
+					<l xml:id="M2.12">the other way?</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.13">Was the
-								 <del change="#change-b"> promised land</del>
-                	a resting tiger</l>
-               <l xml:id="M2.14">front paws, back paws.)?</l>
-						</lg>
+				<lg>
+					<l xml:id="M2.13">Was the
+						<del change="#change-b">
+							promised land</del>
+						a resting tiger</l>
+					<l xml:id="M2.14">front paws, back paws.)?</l>
+				</lg>
 
-						<lg>
-               <l xml:id="M2.15"><del change="#change-b">Pakistan</del>
-							 		<subst change="#change-b">
-										<del>lay in wait.</del>
-										<add place="above">lying in wait?</add>
-							</l>
-            </lg>
-					</div>
-      </body>
-   </text>
-</TEI>
+				<lg>
+					<l xml:id="M2.15">
+						<del change="#change-b">Pakistan</del>
+						<subst change="#change-b">
+							<del>lay in wait.</del>
+							<add place="above">lying in wait?</add>
+						</l>
+					</lg>
+				</div>
+			</body>
+		</text>
+	</TEI>
