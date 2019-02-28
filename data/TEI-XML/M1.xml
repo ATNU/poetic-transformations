@@ -54,7 +54,6 @@
                   </subst> wasn't half-empty</l>
                <l xml:id="M1.12">and what was there</l>
                <l xml:id="M1.13">couldn't be poured away.</l>
-               <!-- Where should this note be inserted? Is it in the right place? -->
                <note place="margin" type="insertion" change="#change-b">
                   <l xml:id="M1.A">In the folding<lb/> of saris,</l>
                   <l xml:id="M1.B">In the salting<lb/> of lassi, — </l>
@@ -83,11 +82,11 @@
 
             <lg>
                <l xml:id="M1.19">In the breadth of a hair</l>
-               <l xml:id="M1.20">In the journey of an ant</l>
+               <l xml:id="M1.20">in the journey of an ant</l>
             </lg>
 
             <lg>
-               <l xml:id="M1.21" corresp="#M1.A" ><del change="#change-b">In the salting of lassi</del></l>
+               <l xml:id="M1.21" corresp="#M1.A" ><del change="#change-b">in the salting of lassi</del></l>
                <l xml:id="M1.22"><del change="#change-b">and kneading of dough</del></l>
             </lg>
 
