@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Pakistan (draft: M3)</title>
+				<author>Moniza Alvi</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Poetic Transformations Project</authority>
+				<idno type="PTid">M3</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Alvi (Moniza) Archive, Newcastle University Special Collections, XXXXX</p>
+				<!-- What's the MS call number? -->
+				<!-- We could do a full manuscript description here -->
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
+				<listChange>
+					<change xml:id="change-a" rend="blue">Original, pen, blue ink</change>
+					<change xml:id="change-b" rend="blue">Second phase of revision in same colour</change>
+				</listChange>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<div type="poem">
+				<head xml:id="M3.heading1" rend="underline">Pakistan, they said to her.</head>
+				<lg>
+					<l xml:id="M3.1">But what was Pakistan?</l>
+					<l xml:id="M3.2">A country, a bolt-hole, a land of bone?</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.3">In the folding of saris</l>
+					<l xml:id="M3.4">and the salting of lassi - Pakistan</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.5">Along the length of a plane,</l>
+					<l xml:id="M3.6">In the journey of an ant - Pakistan</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.7">
+						<del>It</del>There were so many Pakistan.</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.8">It held out its very different
+						<subst change="change-b">
+							<del>sets</del>
+							<add place="above">pairs</add>
+						</subst>
+						of arms</l>
+					<l xml:id="M3.9">offered its
+						<subst change="change-b">
+							<del>hard</del>
+							<add place="above">soft</add>
+						</subst>
+						or
+						<del>so</del>
+						hard embrace</l>
+				</lg>
+
+				<listTranspose>
+					<transpose>
+						<ptr target="M3.8"/>
+						<ptr target="M3.9"/>
+						<ptr target="M3.7"/>
+					</transpose>
+				</listTranspose>
+
+				<lg>
+					<l xml:id="M3.10">To the East and West</l>
+					<l xml:id="M3.11">Whicever way you looked</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.12">the promised land persisted -</l>
+					<l xml:id="M3.13">but it wasn't half-empty</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.14">and all that was there</l>
+					<l xml:id="M3.15">couldn't be poured away.</l>
+					<l xml:id="M3.16" rend="left">- Would there really be movement the other way</l>
+					<l xml:id="M3.17">Was Pakistan a resting tiger</l>
+					<l xml:id="M3.18">Front paws, back paws,</l>
+				</lg>
+
+				<lg>
+					<l xml:id="M3.19">lying in wait?</l>
+				</lg>
+
+			</div>
+		</body>
+	</text>
+</TEI>
