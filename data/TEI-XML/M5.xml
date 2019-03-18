@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pakistan (draft: M5)</title>
+            <author>Moniza Alvi</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Poetic Transformations Project</authority>
+            <idno type="PTid">M5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <!--Call number for this?-->
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange>
+               <change xml:id="change-a" rend="blue">Original pen, blue ink</change>
+               <change xml:id="change-b" rend="blue">Second phase of revision, blue ink</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem">
+            <head xml:id="M5.heading1" rend="underline">Pakistan</head>
+            <lg>
+               <l xml:id="M5.1">Pakistan, they said to her</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.2">But what was Pakistan? a better life.</l>
+               <l xml:id="M5.3"><del change="#change-b">New country</del>, a bolt-hole,<add
+                     change="#change-b" place="below">^</add> a road of bone?</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.4">And where was it?</l>
+               <l xml:id="M5.5">
+                  <subst change="#change-b">
+                     <del>In two halves.</del>
+                     <add place="below">Near</add>
+                  </subst>
+                  <del>Over</del> there... and <add change="#change-b" place="above" rend="caret"
+                     >over</add> there... <add change="#change-b" place="above">Two halves</add>
+               </l>
+            </lg>
+            <lg>
+               <l xml:id="M5.6">In the securing of a sari</l>
+               <l xml:id="M5.7">In the salting of lassi;</l>
+               <l xml:id="M5.8" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.9">In the length of a plait</l>
+               <l xml:id="M5.10">In the trekking of an ant.</l>
+               <l xml:id="M5.11" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.12">Between the red and the black</l>
+               <l xml:id="M5.13">between the fingers of each hand</l>
+               <l xml:id="M5.14" rend="right">Pakistan</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.15">It offered its soft or hard embrace,</l>
+               <l xml:id="M5.16">persisted to the East and West</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.17">But it wasn't half empty</l>
+               <l xml:id="M5.18">and what was there couldn't be poured away</l>
+            </lg>
+            <lg>
+               <l xml:id="M5.19">Front paws, back paws -</l>
+               <l xml:id="M5.20"><subst change="#change-b">
+                     <del>a restive tiger, Pakistan lay in wait</del>
+                     <add place="below"><del change="#change-b">did</del> a restive tiger <subst change="#change-b">
+                           <del>lie</del>
+                           <add>lay</add>
+                        </subst> in wait?</add>
+                  </subst></l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
