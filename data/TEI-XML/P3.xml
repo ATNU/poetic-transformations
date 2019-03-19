@@ -31,248 +31,251 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:id="P3.heading1">2 Must We Go?</head>
-         <lg>
-            <l xml:id="P3.1">To place myself in my grandmother's shoes,</l>
-            <l xml:id="P3.2">her chappals paired in the bedroom cool,</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.3">the mahogany dark,</l>
-            <l xml:id="P3.4">lying on the prayer mat, facing Mecca,</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.5">awaiting her smaller, browner feet -</l>
-            <l xml:id="P3.6">to plant my feet there,</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.7">or here, in a line of words</l>
-            <l xml:id="P3.8">securely on the page.</l>
-         </lg>
-
-         <milestone unit="section" rend="asterisk-left"/>
-
-         <lg>
-            <l xml:id="P3.9">To move house is one thing.</l>
-            <l xml:id="P3.10">To leave your country another.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.11">But to leave it</l>
-            <l xml:id="P3.12">because it no longer wishes</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.13">to attach itself to you,</l>
-            <l xml:id="P3.14">doesn't at all desire</l>
-         </lg>
-         <lg>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.15">to be the ground under your feet,</l>
-            <l xml:id="P3.16">to feel compelled to leave it</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.17">for one which you had always known</l>
-            <l xml:id="P3.18">to be a corner of your own,</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.19">but has become <hi change="#change-a" rend="underline"
-                  >swiftly</hi><note change="#change-a" type="alternative" place="above">Strangely?
-                  boldly?</note> and deliriously</l>
-            <l xml:id="P3.20">another -</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.21">and which beckons</l>
-            <l xml:id="P3.22">as if it had a hand to beckon with,</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.23">and which calls you,</l>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.24">as if a country had a single voice.</l>
-         </lg>
-
-         <milestone unit="section" rend="asterisk-left"/>
-
-         <lg>
-            <l xml:id="P3.25"><hi rend="italic">Amma</hi> they demand,</l>
-            <l xml:id="P3.26">her protesting children.</l>
-            <l xml:id="P3.27" rend="italic">Amma, must we go?</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.28" rend="italic">Can I take my cricket bat to Pakistan?</l>
-            <l xml:id="P3.29" rend="italic">And what about school?</l>
-         </lg>
-         <lg>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.30">Only Athar had no questions.</l>
-         </lg>
-         <metamark change="#change-b" style="parenthesis" place="margin"><lg>
-               <l xml:id="P3.31">My grandfather, <add change="#change-b" place="above">His
-                     Father</add> himself a doctor,</l>
-               <l xml:id="P3.32"><del change="#change-b">had travelled far and wide,</del></l>
+         <div type="poem">
+            <head xml:id="P3.heading1">2 Must We Go?</head>
+            <lg>
+               <l xml:id="P3.1">To place myself in my grandmother's shoes,</l>
+               <l xml:id="P3.2">her chappals paired in the bedroom cool,</l>
             </lg>
             <lg>
-               <l xml:id="P3.33">taken <add change="#change-b" place="above">took</add> him to the
-                  best physicians,</l>
-               <metamark change="#change-a" style="parenthesis" place="margin"><l xml:id="P3.34"
-                        ><del change="#change-b">but none could cure<note change="#change-b"
-                           type="alternative" place="below">heal?</note> his
-                  son.</del></l></metamark>
-               <note change="#change-a" place="inline">??</note>
-               <note change="#change-a" place="below">help</note>
-               <metamark change="#change-c" style="tick" place="below"><note change="#change-a"
-                     place="below"><hi rend="circle">6</hi>?</note></metamark>
-            </lg></metamark>
-         <note change="#change-b" place="margin" type="alternative">
-            <l><metamark change="#change-b" style="tick" place="above"><hi rend="underline"
-                  >His</hi></metamark>
-               <del change="#change-b">father, himself a doctor,</del></l><l>had taken him to the
-               best physicians<metamark change="#change-b" style="line" place="above"/></l><l><del
-                  change="#change-b">but none could cure his son.</del></l>
-         </note>
-         <note change="#change-c" place="margin">couplet is a bit flat + p<hi rend="underline"
-               >ro</hi>saic</note>
-         <note change="#change-b" place="margin" type="alternative"><l>None of them had a
-            cure.</l></note>
-
-         <milestone unit="section" rend="asterisk-left"/>
-
-         <lg>
-            <l xml:id="P3.35">The cards had been dealt</l>
-            <l xml:id="P3.36">by a firm, if not sure hand.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.37">Ludhiana to India. West Punjab to Pakistan.</l>
-            <l xml:id="P3.38">West Bengal to Pakistan.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.39">Amritsar to India. Srinagar to India.</l>
-            <l xml:id="P3.40">Lahore to Pakistan.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.41">The Empire held fast like a sheet -</l>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.42">and shook out.</l>
-         </lg>
-
-         <milestone unit="section" rend="asterisk-left"/>
-
-         <lg>
-            <l xml:id="P3.43">Doubt was an awkward thing -</l>
-            <l xml:id="P3.44">there was no room for doubt.</l>
-         </lg>
-         <lg>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.45">At the margin of a great convulsion</l>
-            <l xml:id="P3.46">her small household convulsed.</l>
-         </lg>
-
-         <milestone unit="section" rend="asterisk-left"/>
-
-         <lg>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.47">Pakistan was what it amounted to</l>
-            <l xml:id="P3.48" rend="right">Pakistan.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.49">In the salting of lassi</l>
-            <l xml:id="P3.50">in the knuckledents in dough</l>
-            <l xml:id="P3.51" rend="right">Pakistan.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.52">In the pleating of a sari</l>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.53">in the sweeping of the hallway</l>
-            <l xml:id="P3.54" rend="right">Pakistan.</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.55">Between the question and its answer</l>
-            <l xml:id="P3.56" rend="right">Pakistan.</l>
-         </lg>
-
-         <milestone unit="section" rend="asterisk-left"/>
-         <metamark change="#change-a" style="line" place="margin">
-            <metamark change="#change-b" style="parenthesis" place="margin"><lg>
-                  <metamark change="#change-a" style="asterisk" place="above"/>
-                  <l xml:id="P3.57">Rumours flew on the wind -</l>
-                  <l xml:id="P3.58">Nails of steel on the wind -</l>
-               </lg></metamark>
-            <metamark change="#change-b" style="line" place="margin"><lg>
-                  <metamark change="#change-a" style="asterisk" place="above"/>
-                  <note change="#change-a" place="margin">- needs more.</note>
-                  <l xml:id="P3.59"><metamark change="#change-b" style="circle">Honour</metamark>
-                     was the jewel,</l>
-                  <l xml:id="P3.60">not mother, sister.</l>
-               </lg></metamark>
-            <note change="#change-c" place="margin">honour holds so much weight here, it would be
-               good to have more about it</note>
-            <note change="#change-a" place="inline" type="alternative">Save their
-                  <unclear>home</unclear>!</note>
-            <lg>
-               <l xml:id="P3.61">Bonfires were lit</l>
-               <l xml:id="P3.62">and the women burned.</l>
+               <l xml:id="P3.3">the mahogany dark,</l>
+               <l xml:id="P3.4">lying on the prayer mat, facing Mecca,</l>
             </lg>
             <lg>
-               <l xml:id="P3.63" rend="italic">They asked to do this,</l>
-               <l xml:id="P3.64" rend="italic">but I ran away.</l>
-               <l xml:id="P3.65" rend="italic">I couldn't set fire to my sister.</l>
-               <metamark change="#change-b" style="exclamation-mark"/>
+               <l xml:id="P3.5">awaiting her smaller, browner feet -</l>
+               <l xml:id="P3.6">to plant my feet there,</l>
             </lg>
-            <note change="#change-a" type="order" place="margin"><hi rend="circle">7</hi>?</note>
+            <lg>
+               <l xml:id="P3.7">or here, in a line of words</l>
+               <l xml:id="P3.8">securely on the page.</l>
+            </lg>
+
             <milestone unit="section" rend="asterisk-left"/>
-            <metamark change="#change-a" style="line" place="margin"><lg>
-                  <note change="#change-a" type="alternative" place="above"><subst>
-                        <del>Save our home</del>
-                        <add>Save their home</add>
-                     </subst>!</note>
-                  <l xml:id="P3.66">90 women jumped into a well.</l>
-                  <note change="#change-b" place="margin">- why?</note>
-                  <note change="#change-a" place="margin">- take out italics.</note>
-                  <l xml:id="P3.67">There wasn't enought water</l>
-                  <l xml:id="P3.68">to drown them all.</l>
+
+            <lg>
+               <l xml:id="P3.9">To move house is one thing.</l>
+               <l xml:id="P3.10">To leave your country another.</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.11">But to leave it</l>
+               <l xml:id="P3.12">because it no longer wishes</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.13">to attach itself to you,</l>
+               <l xml:id="P3.14">doesn't at all desire</l>
+            </lg>
+            <lg>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.15">to be the ground under your feet,</l>
+               <l xml:id="P3.16">to feel compelled to leave it</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.17">for one which you had always known</l>
+               <l xml:id="P3.18">to be a corner of your own,</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.19">but has become <hi change="#change-a" rend="underline"
+                     >swiftly</hi><note change="#change-a" type="alternative" place="above"
+                     >Strangely? boldly?</note> and deliriously</l>
+               <l xml:id="P3.20">another -</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.21">and which beckons</l>
+               <l xml:id="P3.22">as if it had a hand to beckon with,</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.23">and which calls you,</l>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.24">as if a country had a single voice.</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P3.25"><hi rend="italic">Amma</hi> they demand,</l>
+               <l xml:id="P3.26">her protesting children.</l>
+               <l xml:id="P3.27" rend="italic">Amma, must we go?</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.28" rend="italic">Can I take my cricket bat to Pakistan?</l>
+               <l xml:id="P3.29" rend="italic">And what about school?</l>
+            </lg>
+            <lg>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.30">Only Athar had no questions.</l>
+            </lg>
+            <metamark change="#change-b" style="parenthesis" place="margin"><lg>
+                  <l xml:id="P3.31">My grandfather, <add change="#change-b" place="above">His
+                        Father</add> himself a doctor,</l>
+                  <l xml:id="P3.32"><del change="#change-b">had travelled far and wide,</del></l>
+               </lg>
+               <lg>
+                  <l xml:id="P3.33">taken <add change="#change-b" place="above">took</add> him to
+                     the best physicians,</l>
+                  <metamark change="#change-a" style="parenthesis" place="margin"><l xml:id="P3.34"
+                           ><del change="#change-b">but none could cure<note change="#change-b"
+                              type="alternative" place="below">heal?</note> his
+                     son.</del></l></metamark>
+                  <note change="#change-a" place="inline">??</note>
+                  <note change="#change-a" place="below">help</note>
+                  <metamark change="#change-c" style="tick" place="below"><note change="#change-a"
+                        place="below"><hi rend="circle">6</hi>?</note></metamark>
                </lg></metamark>
-            <note change="#change-c" place="margin">move, please! very strong but requires some
-               explanation</note>
-            <milestone unit="section" rend="asterisk-left"/></metamark>
+            <note change="#change-b" place="margin" type="alternative">
+               <l><metamark change="#change-b" style="tick" place="above"><hi rend="underline"
+                        >His</hi></metamark>
+                  <del change="#change-b">father, himself a doctor,</del></l><l>had taken him to the
+                  best physicians<metamark change="#change-b" style="line" place="above"
+                     /></l><l><del change="#change-b">but none could cure his son.</del></l>
+            </note>
+            <note change="#change-c" place="margin">couplet is a bit flat + p<hi rend="underline"
+                  >ro</hi>saic</note>
+            <note change="#change-b" place="margin" type="alternative"><l>None of them had a
+                  cure.</l></note>
 
-         <metamark change="#change-a" style="bracket" place="margin"><note>earlier?</note><lg>
-               <note change="#change-a" type="order" place="margin"><hi rend="circle">8</hi></note>
-               <l xml:id="P3.69">And the rumour of a rumour</l>
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P3.35">The cards had been dealt</l>
+               <l xml:id="P3.36">by a firm, if not sure hand.</l>
             </lg>
             <lg>
-               <l xml:id="P3.70">And the acting on a rumour</l>
+               <l xml:id="P3.37">Ludhiana to India. West Punjab to Pakistan.</l>
+               <l xml:id="P3.38">West Bengal to Pakistan.</l>
             </lg>
             <lg>
-               <l xml:id="P3.71">And the kernel of a rumour</l>
-               <note change="#change-c" place="margin">Implies Amma leaves because of a rumour -
-                  intensional?</note>
-            </lg></metamark>
+               <l xml:id="P3.39">Amritsar to India. Srinagar to India.</l>
+               <l xml:id="P3.40">Lahore to Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.41">The Empire held fast like a sheet -</l>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.42">and shook out.</l>
+            </lg>
 
-         <milestone unit="section" rend="asterisk-left"/>
+            <milestone unit="section" rend="asterisk-left"/>
 
-         <lg>
-            <l xml:id="P3.72">The wisdom was to go.</l>
-         </lg>
-         <metamark change="#change-c" style="bracket" place="margin">?<lg>
-               <l xml:id="P3.73">Departure -</l>
-               <l xml:id="P3.74" rend="centre-left">the noble,</l>
-               <l xml:id="P3.75" rend="centre-right">fruitful,</l>
-               <l xml:id="P3.76" rend="right">hopeful thing</l>
-            </lg></metamark>
+            <lg>
+               <l xml:id="P3.43">Doubt was an awkward thing -</l>
+               <l xml:id="P3.44">there was no room for doubt.</l>
+            </lg>
+            <lg>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.45">At the margin of a great convulsion</l>
+               <l xml:id="P3.46">her small household convulsed.</l>
+            </lg>
 
-         <milestone unit="section" rend="asterisk-left"/>
+            <milestone unit="section" rend="asterisk-left"/>
 
-         <lg>
-            <l xml:id="P3.77">Already</l>
-            <l xml:id="P3.78">her neighbourhood was emptying -</l>
-            <l xml:id="P3.79">whole families had stolen away.</l>
-         </lg>
-         <lg>
-            <metamark change="#change-c" style="tick" place="margin"/>
-            <l xml:id="P3.80">Whicy way to face?</l>
-            <l xml:id="P3.81">She wrote to her son in England:</l>
-         </lg>
-         <lg>
-            <l xml:id="P3.82" rend="italic">I pray for our safety at this time.</l>
-            <l xml:id="P3.83" rend="italic">We will go by bus to Lahore.</l>
-         </lg>
+            <lg>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.47">Pakistan was what it amounted to</l>
+               <l xml:id="P3.48" rend="right">Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.49">In the salting of lassi</l>
+               <l xml:id="P3.50">in the knuckledents in dough</l>
+               <l xml:id="P3.51" rend="right">Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.52">In the pleating of a sari</l>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.53">in the sweeping of the hallway</l>
+               <l xml:id="P3.54" rend="right">Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.55">Between the question and its answer</l>
+               <l xml:id="P3.56" rend="right">Pakistan.</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+            <metamark change="#change-a" style="line" place="margin">
+               <metamark change="#change-b" style="parenthesis" place="margin"><lg>
+                     <metamark change="#change-a" style="asterisk" place="above"/>
+                     <l xml:id="P3.57">Rumours flew on the wind -</l>
+                     <l xml:id="P3.58">Nails of steel on the wind -</l>
+                  </lg></metamark>
+               <metamark change="#change-b" style="line" place="margin"><lg>
+                     <metamark change="#change-a" style="asterisk" place="above"/>
+                     <note change="#change-a" place="margin">- needs more.</note>
+                     <l xml:id="P3.59"><metamark change="#change-b" style="circle">Honour</metamark>
+                        was the jewel,</l>
+                     <l xml:id="P3.60">not mother, sister.</l>
+                  </lg></metamark>
+               <note change="#change-c" place="margin">honour holds so much weight here, it would be
+                  good to have more about it</note>
+               <note change="#change-a" place="inline" type="alternative">Save their
+                     <unclear>home</unclear>!</note>
+               <lg>
+                  <l xml:id="P3.61">Bonfires were lit</l>
+                  <l xml:id="P3.62">and the women burned.</l>
+               </lg>
+               <lg>
+                  <l xml:id="P3.63" rend="italic">They asked to do this,</l>
+                  <l xml:id="P3.64" rend="italic">but I ran away.</l>
+                  <l xml:id="P3.65" rend="italic">I couldn't set fire to my sister.</l>
+                  <metamark change="#change-b" style="exclamation-mark"/>
+               </lg>
+               <note change="#change-a" type="order" place="margin"><hi rend="circle">7</hi>?</note>
+               <milestone unit="section" rend="asterisk-left"/>
+               <metamark change="#change-a" style="line" place="margin"><lg>
+                     <note change="#change-a" type="alternative" place="above"><subst>
+                           <del>Save our home</del>
+                           <add>Save their home</add>
+                        </subst>!</note>
+                     <l xml:id="P3.66">90 women jumped into a well.</l>
+                     <note change="#change-b" place="margin">- why?</note>
+                     <note change="#change-a" place="margin">- take out italics.</note>
+                     <l xml:id="P3.67">There wasn't enought water</l>
+                     <l xml:id="P3.68">to drown them all.</l>
+                  </lg></metamark>
+               <note change="#change-c" place="margin">move, please! very strong but requires some
+                  explanation</note>
+               <milestone unit="section" rend="asterisk-left"/></metamark>
+
+            <metamark change="#change-a" style="bracket" place="margin"><note>earlier?</note><lg>
+                  <note change="#change-a" type="order" place="margin"><hi rend="circle"
+                     >8</hi></note>
+                  <l xml:id="P3.69">And the rumour of a rumour</l>
+               </lg>
+               <lg>
+                  <l xml:id="P3.70">And the acting on a rumour</l>
+               </lg>
+               <lg>
+                  <l xml:id="P3.71">And the kernel of a rumour</l>
+                  <note change="#change-c" place="margin">Implies Amma leaves because of a rumour -
+                     intensional?</note>
+               </lg></metamark>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P3.72">The wisdom was to go.</l>
+            </lg>
+            <metamark change="#change-c" style="bracket" place="margin">?<lg>
+                  <l xml:id="P3.73">Departure -</l>
+                  <l xml:id="P3.74" rend="centre-left">the noble,</l>
+                  <l xml:id="P3.75" rend="centre-right">fruitful,</l>
+                  <l xml:id="P3.76" rend="right">hopeful thing</l>
+               </lg></metamark>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P3.77">Already</l>
+               <l xml:id="P3.78">her neighbourhood was emptying -</l>
+               <l xml:id="P3.79">whole families had stolen away.</l>
+            </lg>
+            <lg>
+               <metamark change="#change-c" style="tick" place="margin"/>
+               <l xml:id="P3.80">Whicy way to face?</l>
+               <l xml:id="P3.81">She wrote to her son in England:</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.82" rend="italic">I pray for our safety at this time.</l>
+               <l xml:id="P3.83" rend="italic">We will go by bus to Lahore.</l>
+            </lg>
+         </div>
 
       </body>
    </text>
