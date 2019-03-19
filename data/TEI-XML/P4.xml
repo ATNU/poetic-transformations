@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pakistan (draft: P4)</title>
+            <author>Moniza Alvi</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Poetic Transformations Project</authority>
+            <idno type="PTid">P4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+            <!-- Call number for this? -->
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
+            <listChange>
+               <change xml:id="change-a" rend="red">Pen, red ink</change>
+               <change xml:id="change-b" rend="black">Pencil</change>
+               <change xml:id="change-c" rend="black">Pencil, different hand from #change-b</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem">
+            <head xml:id="P4.heading1">2 Must We Go?</head>
+
+            <lg>
+               <l xml:id="P4.1">To place myself in my grandmother's shoes,</l>
+               <l xml:id="P4.2">her chappals paired in the bedroom cool,</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.3">the mahogany dar,</l>
+               <l xml:id="P4.4">lying on the prayer mat, facing Mecca,</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.5">awaiting her smaller, browner feet -</l>
+               <l xml:id="P4.6">to plant my feet there,</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.7">or here, in a line of words</l>
+               <l xml:id="P4.8">securely on the page</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.9">To move house is one thing.</l>
+               <l xml:id="P4.10">To leave your country another.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.11">But to leave it</l>
+               <l xml:id="P4.12">Because it no longer wishes</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.13">to attach itself to you,</l>
+               <l xml:id="P4.14">doesn't at all desire</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.15">to be the ground under your feet,</l>
+               <l xml:id="P4.16">to feel compelled to leave it</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.17">for one which you had always known</l>
+               <l xml:id="P4.18">to be a corner of your own</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.19">but <add change="#change-c">which</add> has <metamark
+                     change="#change-b" function="transpose" style="circle-arrow" place="inline"
+                     >become</metamark> swiftly and deliriously <add change="#change-a"
+                     place="inline"><del>become</del></add></l>
+               <l xml:id="P4.20"><add change="#change-a" place="inline">become</add>another -</l>
+               <note change="#change-c" place="margin">(syntax a bit uneasy here without that second
+                  'which')</note>
+            </lg>
+            <lg>
+               <l xml:id="P4.21">and which beckons</l>
+               <l xml:id="P4.22">as if it had a hand to beckon with,</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.23">and which calls you,</l>
+               <l xml:id="P4.24">as if a country had a single voice.</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.25"><hi rend="italic">Amma</hi> they demand,</l>
+               <l xml:id="P4.26">her protesting children.</l>
+               <l xml:id="P4.27" rend="italic">Amma, must we go?</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.28" rend="italic">Can I take my cricket bat to Pakistan?</l>
+               <l xml:id="P4.29" rend="italic">And what about school?</l>
+            </lg>
+            <metamark change="#change-c" style="bracket" place="margin"><lg>
+                  <l xml:id="P4.30">Only Athar had<add change="#change-a" place="above">has</add> no
+                     questions.</l>
+               </lg>
+               <lg>
+                  <l xml:id="P4.31">My grandfather, himself a doctor,</l>
+                  <l xml:id="P4.32"><del change="#change-a">had</del> travelled far and wide,</l>
+               </lg>
+               <lg>
+                  <l xml:id="P4.33"><subst change="#change-a">
+                        <del>taken</del>
+                        <add place="above">took</add>
+                     </subst> him to the best physicians,</l>
+                  <l xml:id="P4.34">but none could cure his son.</l>
+               </lg></metamark>
+            <note change="#change-c" place="margin">Why the change of tense here? Isn't the inset
+               enough to mark this passage's difference?</note>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.35">The cards had been dealt</l>
+               <l xml:id="P4.36">by a firm, if not a sure hand.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.37">Ludhiana to India. West Punjab to Pakistan.</l>
+               <l xml:id="P4.38">West Bengal to Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.39">Amritsar to India. Srinagar to India.</l>
+               <l xml:id="P4.40">Lahore to Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.41">The Empire held fast like a sheet -</l>
+               <l xml:id="P4.42">and shook out.</l>
+            </lg>
+
+            <milestone unit="section" rend="italic"/>
+
+            <lg>
+               <l xml:id="P4.43">Doubt was an awkward thing -</l>
+               <l xml:id="P4.44">there was no room for doubt.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.45">At the margin of the great convulsion</l>
+               <l xml:id="P4.46">her small household convulsed.</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.47">Pakistan was what it amounted to</l>
+               <l xml:id="P4.48" rend="right">Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.49">In the salting of lassi</l>
+               <l xml:id="P4.50">in the knuckledents in dough</l>
+               <note change="#change-c" place="margin">These details are so lovely!</note>
+               <l xml:id="P4.51" rend="right">Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.52">In the pleating of a sari</l>
+               <l xml:id="P4.53">in the sweeping of the hallway</l>
+               <l xml:id="P4.54" rend="right">Pakistan.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.55">Between the question and its answer</l>
+               <l xml:id="P4.56" rend="right">Pakistan.</l>
+            </lg>
+
+            <milestone unit="section" rend="italic"/>
+
+            <lg>
+               <l xml:id="P4.57">Rumours flew on the wind -</l>
+               <l xml:id="P4.58">Nails of steel on the wind -</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.59">Honour was the jewel,</l>
+               <l xml:id="P4.60">not mother, sister.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.61">Bonfires were lit</l>
+               <l xml:id="P4.62">and the women burned.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.63" rend="italic">They asked me to do this,</l>
+               <l xml:id="P4.64" rend="italic">but I ran away.</l>
+               <l xml:id="P4.65" rend="italic">I couldn't set fire to my sister.</l>
+            </lg>
+            <note change="#change-c" place="margin"><hi rend="underline">V. powerful.</hi> Was this
+               passage here before? Surely I would have remembered it...?</note>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.66" rend="italic">90 women jumped into a well.</l>
+               <l xml:id="P4.67" rend="italic">There wasn't enough water</l>
+               <l xml:id="P4.68" rend="italic">to drown them all.</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.69">And the rumour of a rumour</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.70">And the acting on a rumour</l>
+               <note change="#change-c" place="margin">You are handling this alternation of
+                  different modes so wonderfully, Moniza!</note>
+            </lg>
+            <lg>
+               <l xml:id="P4.71">And the kernel of a rumour</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.72">The wisdom was to go.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.73">Departure -</l>
+               <l xml:id="P4.74" rend="centre-left">the noble,</l>
+               <l xml:id="P4.75" rend="centre-right">fruitful,</l>
+               <l xml:id="P4.76" rend="right">hopeful thing</l>
+            </lg>
+
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <lg>
+               <l xml:id="P4.77">Already</l>
+               <l xml:id="P4.78">her neighbourhood was emptying -</l>
+               <l xml:id="P4.79">whole families had stolen away.</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.80">Which way to face?</l>
+               <l xml:id="P4.81">She wrote to her son in England:</l>
+            </lg>
+            <lg>
+               <l xml:id="P4.82" rend="italic">I pray for our safety at this time.</l>
+               <l xml:id="P4.83" rend="italic">We will go by bus to Lahore.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
