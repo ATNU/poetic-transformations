@@ -22,11 +22,17 @@
          <creation>
             <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
             <listChange>
-               <change xml:id="change-a" rend="red">Pen, red ink</change>
-               <change xml:id="change-b" rend="black">Pencil</change>
-               <change xml:id="change-c" rend="black">Pencil, different hand from #change-b</change>
+               <change xml:id="change-a" rend="black">Pencil</change>
+               <change xml:id="change-b" rend="red">Pen, red ink</change>
+               <change xml:id="change-c" rend="black">Pencil, different hand from #change-a</change>
             </listChange>
          </creation>
+         <handNotes>
+            <handNote xml:id="author"><p>Majority of text, originates #chage-a and
+               #change-b</p></handNote>
+            <handNote xml:id="friend"><p>Adds a few notes and comments, originates
+               #change-c</p></handNote>
+         </handNotes>
       </profileDesc>
    </teiHeader>
    <text>
@@ -76,12 +82,14 @@
             </lg>
             <lg>
                <l xml:id="P4.19">but <add change="#change-c">which</add> has <metamark
-                     change="#change-b" function="transpose" style="circle-arrow" place="inline"
-                     >become</metamark> swiftly and deliriously <add change="#change-a"
-                     place="inline"><del>become</del></add></l>
-               <l xml:id="P4.20"><add change="#change-a" place="inline">become </add>another -</l>
-               <note change="#change-c" place="margin">(syntax a bit uneasy here without that second
-                  'which')</note>
+                     change="#change-a" function="transpose" style="circle-arrow" place="inline"
+                     target="#P4.w1" spanTo="#P4.note1"/>
+                  <w xml:id="P4.w1">become</w> swiftly and deliriously <note xml:id="P4.note1"
+                     change="#change-a" place="inline">?</note><add change="#change-b" place="inline"
+                        ><del>become</del></add></l>
+               <l xml:id="P4.20"><add change="#change-b" place="inline">become </add>another -</l>
+               <note change="#change-c" place="margin" hand="#friend">(syntax a bit uneasy here
+                  without that second 'which')</note>
             </lg>
             <lg>
                <l xml:id="P4.21">and which beckons</l>
@@ -104,21 +112,21 @@
                <l xml:id="P4.29" rend="italic">And what about school?</l>
             </lg>
             <pb n="2"/>
-            <metamark change="#change-c" style="bracket" place="margin"><lg>
-                  <l xml:id="P4.30">Only Athar had<add change="#change-a" place="above">has</add> no
+            <metamark change="#change-c" style="bracket" place="margin" target="#P4.30" spanTo="#P4.34"/><lg>
+                  <l xml:id="P4.30">Only Athar had<add change="#change-b" place="above">has</add> no
                      questions.</l>
                </lg>
                <lg>
                   <l xml:id="P4.31">My grandfather, himself a doctor,</l>
-                  <l xml:id="P4.32"><del change="#change-a">had</del> travelled far and wide,</l>
+                  <l xml:id="P4.32"><del change="#change-b">had</del> travelled far and wide,</l>
                </lg>
                <lg>
-                  <l xml:id="P4.33"><subst change="#change-a">
+                  <l xml:id="P4.33"><subst change="#change-b">
                         <del>taken</del>
                         <add place="above">took</add>
                      </subst> him to the best physicians,</l>
                   <l xml:id="P4.34">but none could cure his son.</l>
-               </lg></metamark>
+               </lg>
             <note change="#change-c" place="margin">Why the change of tense here? Isn't the inset
                enough to mark this passage's difference?</note>
 
