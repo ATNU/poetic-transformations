@@ -23,7 +23,8 @@
 				<!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
 				<listChange>
 					<change xml:id="change-a" rend="blue">Original, pen, blue ink</change>
-					<change xml:id="change-b" rend="blue">Second phase of revision in same colour</change>
+					<change xml:id="change-b" rend="blue">Second phase of revision in same
+						colour</change>
 				</listChange>
 			</creation>
 		</profileDesc>
@@ -49,33 +50,30 @@
 					<l xml:id="M3.6">In the journey of an ant - Pakistan</l>
 				</lg>
 
-				<lg>
+				<lg xml:id="M3.lg.1">
 					<l xml:id="M3.7">
 						<del>It</del>There were so many Pakistan.</l>
 				</lg>
 
-				<lg>
-					<l xml:id="M3.8">It held out its very different
-						<subst change="change-b">
+				<metamark function="transpose" rend="arrow" target="#M3.anc.1" change="#change-b"/>
+
+				<lg xml:id="M3.lg.2">
+					<l xml:id="M3.8">It held out its very different <subst change="change-b">
 							<del>sets</del>
 							<add place="above">pairs</add>
-						</subst>
-						of arms</l>
-					<l xml:id="M3.9">offered its
-						<subst change="change-b">
+						</subst> of arms</l>
+					<l xml:id="M3.9">offered its <subst change="change-b">
 							<del>hard</del>
 							<add place="above">soft</add>
-						</subst>
-						or
-						<del>so</del>
-						hard embrace</l>
+						</subst> or <del>so</del> hard embrace</l>
 				</lg>
+
+				<anchor xml:id="M3.anc.1"/>
 
 				<listTranspose>
 					<transpose>
-						<ptr target="M3.8"/>
-						<ptr target="M3.9"/>
-						<ptr target="M3.7"/>
+						<ptr target="M3.lg.2"/>
+						<ptr target="M3.lg.1"/>
 					</transpose>
 				</listTranspose>
 
@@ -92,7 +90,10 @@
 				<lg>
 					<l xml:id="M3.14">and all that was there</l>
 					<l xml:id="M3.15">couldn't be poured away.</l>
-					<l xml:id="M3.16" rend="left">- Would there really be movement the other way</l>
+				</lg>
+				<l xml:id="M3.16"><add change="#change-b" rend="left">- Would there really be
+						movement the other way</add></l>
+				<lg>
 					<l xml:id="M3.17">Was Pakistan a resting tiger</l>
 					<l xml:id="M3.18">Front paws, back paws,</l>
 				</lg>
