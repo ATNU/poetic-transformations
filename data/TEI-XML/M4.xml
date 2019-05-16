@@ -28,6 +28,7 @@
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
 
          <div type="poem">
             <head xml:id="M4.heading1" rend="underline">Pakistan, they said to her</head>
@@ -42,7 +43,8 @@
                   </subst>, a bolt-hole, a road of bone?</l>
             </lg>
             <lg>
-               <l xml:id="M4.3">In the <add change="#change-b" place="inline">re</add>folding of saris </l>
+               <l xml:id="M4.3">In the <add change="#change-b" place="inline">re</add>folding of
+                  saris </l>
                <l xml:id="M4.4">and the salting of lassi — </l>
                <l xml:id="M4.5" rend="right">Pakistan</l>
             </lg>
@@ -54,23 +56,23 @@
             <lg>
                <l xml:id="M4.9">It held out its different sets of arms</l>
                <l xml:id="M4.10">offered its hard or soft embrace</l>
-						 </lg>
-						 <lg>
+            </lg>
+            <lg>
                <l xml:id="M4.11"><del change="#change-b">The innumerable Pakistans</del></l>
             </lg>
-						<lg>
-							<l xml:id="M4.12">To the East and West</l>
-							<l xml:id="M4.13">the <subst>
-									<del change="#change-b">promised land</del>
-									<add place="below" change="#change-b">Pakistan</add>
-								</subst> persisted</l>
-						</lg>
+            <lg>
+               <l xml:id="M4.12">To the East and West</l>
+               <l xml:id="M4.13">the <subst>
+                     <del change="#change-b">promised land</del>
+                     <add place="below" change="#change-b">Pakistan</add>
+                  </subst> persisted</l>
+            </lg>
             <lg>
                <l xml:id="M4.14">but it wasn't half empty,</l>
                <l xml:id="M4.15"><subst>
                      <del>and what</del>
                      <add place="above">all</add>
-                  </subst> there was couldn't be past aid</l> 
+                  </subst> there was couldn't be past aid</l>
             </lg>
             <lg>
                <l xml:id="M4.16"><del>Pakistan raging on subdued</del></l>
@@ -85,7 +87,8 @@
                <l xml:id="M4.19">the other way</l>
             </lg>
             <lg change="#change-b #change-a">
-               <l xml:id="M4.20"><del change="#change-a #change-b">Pakistan <unclear>if</unclear></del></l>
+               <l xml:id="M4.20"><del change="#change-a #change-b">Pakistan
+                     <unclear>if</unclear></del></l>
                <l xml:id="M4.21">Where would <subst change="#change-b">
                      <del>she</del>
                      <add place="above">they</add>
