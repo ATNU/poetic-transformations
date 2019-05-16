@@ -23,13 +23,14 @@
             <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
             <listChange>
                <change xml:id="change-a" rend="blue">Pen, blue ink</change>
-               <change xml:id="change-b" rend="black">Pencil (?)</change>
+               <change xml:id="change-b" rend="black">Pencil</change>
             </listChange>
          </creation>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
          <div type="poem">
             <head xml:id="P2.heading1">2 Must We Go?</head>
 
@@ -74,7 +75,7 @@
                <l xml:id="P2.15">to be the ground under your feet,</l>
                <l xml:id="P2.16">to feel compelled to <subst>
                      <del change="#change-a">leave</del>
-                     <add place="below"><unclear>exodus</unclear></add>
+                     <add place="below"><unclear>exchange</unclear></add>
                   </subst>
                   <metamark style="tick" place="above">it</metamark></l>
             </lg>
@@ -125,6 +126,8 @@
                      <add place="below"><del change="#change-b">And what about school?</del></add>
                   </subst></l>
             </lg>
+
+            <pb n="2"/>
 
             <lg>
                <l xml:id="P2.30">Only Athar had no questions.</l>
@@ -204,6 +207,8 @@
 
             <milestone unit="section" rend="asterisk-left"/>
 
+            <pb n="3"/>
+
             <lg>
                <l xml:id="P2.57">Rumours flew on the wind -</l>
                <l xml:id="P2.58">Nails of steel on the wind -</l>
@@ -264,17 +269,17 @@
                <l xml:id="P2.78">her neighbourhood was emptying -</l>
                <l xml:id="P2.79">whole familes had stolen away.</l>
             </lg>
-            
+
             <lg>
                <l xml:id="P2.80">Which way to face?</l>
                <l xml:id="P2.81">She wrote to her son in England:</l>
             </lg>
-            
+
             <lg>
                <l xml:id="P2.82" rend="italic">I pray for our safety at this time.</l>
                <l xml:id="P2.83" rend="italic">We will go by bus to Lahore.</l>
             </lg>
-            
+
          </div>
       </body>
    </text>
