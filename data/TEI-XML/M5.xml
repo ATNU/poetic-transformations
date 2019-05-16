@@ -37,8 +37,7 @@
             </lg>
             <lg>
                <l xml:id="M5.2">But what was Pakistan? a better life.</l>
-               <l xml:id="M5.3"><del change="#change-b">New country</del>, a bolt-hole,<add
-                     change="#change-b" place="below">^</add> a road of bone?</l>
+               <l xml:id="M5.3"><del change="#change-b">New country</del>, a bolt-hole,<metamark change="#change-b" rend="caret" function="unclear"/> a road of bone?</l> <!-- Changed caret to metamark rend caret -> should it be <g>? -->
             </lg>
             <lg>
                <l xml:id="M5.4">And where was it?</l>
