@@ -75,8 +75,7 @@
 
             <lg>
                <l xml:id="P1.15">to be the ground under your feet,</l>
-               <l xml:id="P1.16"> to feel <hi change="#change-a" rend="underline">compelled</hi> to
-                  leave it</l>
+               <l xml:id="P1.16"> to feel compelled to leave it</l>
             </lg>
 
             <lg>
@@ -85,8 +84,10 @@
                            <del>country</del>
                            <add place="above">land</add>
                         </subst></del>
-                     <add>country - another one</add>
-                  </subst> which you had always known</l>
+                     <add><del change="#change-b" rend="overstrike">another one</del></add>
+                  </subst><supplied reason="previous-deletion">a</supplied>
+                  <add change="#change-b" place="margin">country</add> which you had always
+                  known</l>
                <l xml:id="P1.18"> to be a corner of your own,</l>
             </lg>
 
@@ -190,18 +191,27 @@
                <l xml:id="P1.54">Pakistan.</l>
             </lg>
 
-            <lg>
+            <lg xml:id="P1.lg.1">
                <l xml:id="P1.55">Rumours flew on the wind</l>
                <l xml:id="P1.56"><del change="#change-a">Broken glass on the wind</del></l>
-               <metamark function="transpose" style="arrow" spanTo="#P1.59"/>
+               <metamark function="transpose" style="arrow" target="#P1.lg.1" spanTo="#P1.anc.1"/>
                <l xml:id="P1.57">Nails of steel <add change="#change-a">[</add>on the wind<add
                      change="#change-a">]</add></l>
             </lg>
 
-            <lg>
+            <lg xml:id="P1.lg.2">
                <l xml:id="P1.58">Between the question and its answer</l>
                <l xml:id="P1.59">Pakistan.</l>
             </lg>
+
+            <anchor xml:id="P1.anc.1"/>
+
+            <listTranspose>
+               <transpose>
+                  <ptr target="#P1.lg.2"/>
+                  <ptr target="#P1.lg.1"/>
+               </transpose>
+            </listTranspose>
 
             <pb n="3"/>
 
