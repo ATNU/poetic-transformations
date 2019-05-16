@@ -31,6 +31,7 @@
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
          <div type="poem">
             <head xml:id="P4.heading1">2 Must We Go?</head>
 
@@ -78,7 +79,7 @@
                      change="#change-b" function="transpose" style="circle-arrow" place="inline"
                      >become</metamark> swiftly and deliriously <add change="#change-a"
                      place="inline"><del>become</del></add></l>
-               <l xml:id="P4.20"><add change="#change-a" place="inline">become</add>another -</l>
+               <l xml:id="P4.20"><add change="#change-a" place="inline">become </add>another -</l>
                <note change="#change-c" place="margin">(syntax a bit uneasy here without that second
                   'which')</note>
             </lg>
@@ -102,6 +103,7 @@
                <l xml:id="P4.28" rend="italic">Can I take my cricket bat to Pakistan?</l>
                <l xml:id="P4.29" rend="italic">And what about school?</l>
             </lg>
+            <pb n="2"/>
             <metamark change="#change-c" style="bracket" place="margin"><lg>
                   <l xml:id="P4.30">Only Athar had<add change="#change-a" place="above">has</add> no
                      questions.</l>
@@ -173,6 +175,8 @@
             </lg>
 
             <milestone unit="section" rend="italic"/>
+
+            <pb n="3"/>
 
             <lg>
                <l xml:id="P4.57">Rumours flew on the wind -</l>
