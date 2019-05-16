@@ -12,18 +12,19 @@
          <publicationStmt>
             <authority>Poetic Transformations Project</authority>
             <idno type="PTid">B</idno>
-          </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
-            <p>Book version: Moniza Alvi, At the Time of Partition. Tarset: Bloodaxe Books, 2013, pp. 14-18.</p>
+            <p>Book version: Moniza Alvi, At the Time of Partition. Tarset: Bloodaxe Books, 2013,
+               pp. 14-18.</p>
          </sourceDesc>
-         </fileDesc>
-      </teiHeader>
+      </fileDesc>
+   </teiHeader>
    <text>
       <body>
 
-<pb n="14"/>         
+         <pb n="14"/>
          <div type="poem">
-            <head xml:id="B.heading1">2  Must We Go?</head>
+            <head xml:id="B.heading1">2 Must We Go?</head>
 
             <lg>
                <l xml:id="B.1">To place myself in my grandmother's shoes,</l>
@@ -37,7 +38,7 @@
                <l xml:id="B.5">awaiting her smaller, browner feet — </l>
                <l xml:id="B.6">to plant my feet there,</l>
             </lg>
-            <lg> 
+            <lg>
                <l xml:id="B.7">or here, in a line of words</l>
                <l xml:id="B.8">securely on the page.</l>
             </lg>
@@ -181,7 +182,7 @@
             </lg>
             <lg>
                <l xml:id="B.72">Departure — </l>
-               <l  xml:id="B.73" rend="right">the desperate,</l>
+               <l xml:id="B.73" rend="right">the desperate,</l>
             </lg>
             <lg>
                <l xml:id="B.74">the unimaginable thing</l>
