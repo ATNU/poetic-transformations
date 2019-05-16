@@ -31,6 +31,7 @@
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
          <div type="poem">
             <head xml:id="P3.heading1">2 Must We Go?</head>
             <lg>
@@ -100,6 +101,9 @@
                <l xml:id="P3.28" rend="italic">Can I take my cricket bat to Pakistan?</l>
                <l xml:id="P3.29" rend="italic">And what about school?</l>
             </lg>
+
+            <pb n="2"/>
+
             <lg>
                <metamark change="#change-c" style="tick" place="margin"/>
                <l xml:id="P3.30">Only Athar had no questions.</l>
@@ -189,6 +193,8 @@
             </lg>
 
             <milestone unit="section" rend="asterisk-left"/>
+            <pb n="3"/>
+            <milestone unit="section" rend="asterisk-left" change="#change-a"/>
             <metamark change="#change-a" style="line" place="margin">
                <metamark change="#change-b" style="parenthesis" place="margin"><lg>
                      <metamark change="#change-a" style="asterisk" place="above"/>
@@ -197,6 +203,7 @@
                   </lg></metamark>
                <metamark change="#change-b" style="line" place="margin"><lg>
                      <metamark change="#change-a" style="asterisk" place="above"/>
+                     <!-- milestone added -->
                      <note change="#change-a" place="margin">- needs more.</note>
                      <l xml:id="P3.59"><metamark change="#change-b" style="circle">Honour</metamark>
                         was the jewel,</l>
@@ -205,7 +212,7 @@
                <note change="#change-c" place="margin">honour holds so much weight here, it would be
                   good to have more about it</note>
                <note change="#change-a" place="inline" type="alternative">Save their
-                     <unclear>home</unclear>!</note>
+                     <unclear>honour</unclear>!</note>
                <lg>
                   <l xml:id="P3.61">Bonfires were lit</l>
                   <l xml:id="P3.62">and the women burned.</l>
@@ -220,8 +227,8 @@
                <milestone unit="section" rend="asterisk-left"/>
                <metamark change="#change-a" style="line" place="margin"><lg>
                      <note change="#change-a" type="alternative" place="above"><subst>
-                           <del>Save our home</del>
-                           <add>Save their home</add>
+                           <del>Save our honour</del>
+                           <add>To save their honour</add>
                         </subst>!</note>
                      <l xml:id="P3.66">90 women jumped into a well.</l>
                      <note change="#change-b" place="margin">- why?</note>
@@ -244,7 +251,7 @@
                <lg>
                   <l xml:id="P3.71">And the kernel of a rumour</l>
                   <note change="#change-c" place="margin">Implies Amma leaves because of a rumour -
-                     intensional?</note>
+                        <sic>intensional</sic>?</note>
                </lg></metamark>
 
             <milestone unit="section" rend="asterisk-left"/>
