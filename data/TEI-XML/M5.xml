@@ -29,6 +29,7 @@
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
          <div type="poem">
             <head xml:id="M5.heading1" rend="underline">Pakistan</head>
             <lg>
@@ -77,7 +78,8 @@
                <l xml:id="M5.19">Front paws, back paws -</l>
                <l xml:id="M5.20"><subst change="#change-b">
                      <del>a restive tiger, Pakistan lay in wait</del>
-                     <add place="below"><del change="#change-b">did</del> a restive tiger <subst change="#change-b">
+                     <add place="below"><del change="#change-b">did</del> a restive tiger <subst
+                           change="#change-b">
                            <del>lie</del>
                            <add>lay</add>
                         </subst> in wait?</add>
