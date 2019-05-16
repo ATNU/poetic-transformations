@@ -27,6 +27,12 @@
                <change xml:id="change-c" rend="black">Pencil, different hand from #change-b</change>
             </listChange>
          </creation>
+         <handNotes>
+            <handNote xml:id="author"><p>Majority of text, originates #chage-a and
+               #change-b</p></handNote>
+            <handNote xml:id="editor"><p>Adds a few notes and comments, originates
+               #change-c</p></handNote>
+         </handNotes>
       </profileDesc>
    </teiHeader>
    <text>
@@ -75,9 +81,11 @@
                <l xml:id="P3.18">to be a corner of your own,</l>
             </lg>
             <lg>
-               <l xml:id="P3.19">but has become <hi change="#change-a" rend="underline"
-                     >swiftly</hi><note change="#change-a" type="alternative" place="above"
-                     >Strangely? boldly?</note> and deliriously</l>
+               <l xml:id="P3.19">but has become <hi xml:id="P3.w.1" change="#change-a"
+                     rend="underline">swiftly</hi><metamark change="#change-a" target="#P3.w.1"
+                     spanTo="#P3.n.1" function="note-connection"/><note xml:id="P3.n.1"
+                     change="#change-a" type="alternative" place="above">Strangely? boldly?</note>
+                  and deliriously</l>
                <l xml:id="P3.20">another -</l>
             </lg>
             <lg>
@@ -108,34 +116,42 @@
                <metamark change="#change-c" style="tick" place="margin"/>
                <l xml:id="P3.30">Only Athar had no questions.</l>
             </lg>
-            <metamark change="#change-b" style="parenthesis" place="margin"><lg>
-                  <l xml:id="P3.31">My grandfather, <add change="#change-b" place="above">His
-                        Father</add> himself a doctor,</l>
-                  <l xml:id="P3.32"><del change="#change-b">had travelled far and wide,</del></l>
-               </lg>
-               <lg>
-                  <l xml:id="P3.33">taken <add change="#change-b" place="above">took</add> him to
-                     the best physicians,</l>
-                  <metamark change="#change-a" style="parenthesis" place="margin"><l xml:id="P3.34"
-                           ><del change="#change-b">but none could cure<note change="#change-b"
-                              type="alternative" place="below">heal?</note> his
-                     son.</del></l></metamark>
-                  <note change="#change-a" place="inline">??</note>
-                  <note change="#change-a" place="below">help</note>
-                  <metamark change="#change-c" style="tick" place="below"><note change="#change-a"
-                        place="below"><hi rend="circle">6</hi>?</note></metamark>
-               </lg></metamark>
+            <metamark change="#change-b" style="parenthesis" place="margin" target="#P3.31"
+               spanTo="#P3.34"/>
+            <lg>
+               <l xml:id="P3.31"><subst change="#change-b">
+                     <del evidence="internal">My grandfather,</del>
+                     <add place="above">His Father</add>
+                  </subst> himself a doctor,</l>
+               <l xml:id="P3.32"><del change="#change-b">had travelled far and wide,</del></l>
+            </lg>
+            <lg>
+               <l xml:id="P3.33"><subst change="#change-b">
+                     <del evidence="internal">taken</del>
+                     <add place="above">took</add>
+                  </subst> him to the best physicians,</l>
+               <metamark change="#change-a" style="parenthesis" place="margin" target="#P3.34"/>
+               <l xml:id="P3.34"><del change="#change-b">but none could cure<note change="#change-b"
+                        type="alternative" place="below">heal?</note> his son.</del></l>
+               <note change="#change-a" place="inline">??</note>
+               <note change="#change-a" place="below">help</note>
+               <metamark change="#change-a" place="below" function="order"><hi rend="circle"
+                  >6</hi>?</metamark>
+               <metamark change="#change-c" style="tick" place="below" function="confirmation"/>
+            </lg>
             <note change="#change-b" place="margin" type="alternative">
                <l><metamark change="#change-b" style="tick" place="above"><hi rend="underline"
                         >His</hi></metamark>
                   <del change="#change-b">father, himself a doctor,</del></l><l>had taken him to the
                   best physicians<metamark change="#change-b" style="line" place="above"
-                     /></l><l><del change="#change-b">but none could cure his son.</del></l>
+                     /></l><l><subst change="#change-b">
+                     <del change="#change-b">but none could cure his son.</del>
+                     <add><ptr target="#P3.alt.34"/></add>
+                  </subst></l>
             </note>
-            <note change="#change-c" place="margin">couplet is a bit flat + p<hi rend="underline"
-                  >ro</hi>saic</note>
-            <note change="#change-b" place="margin" type="alternative"><l>None of them had a
-                  cure.</l></note>
+            <note change="#change-c" place="margin" hand="#editor">couplet is a bit flat + p<hi
+                  rend="underline">ro</hi>saic</note>
+            <l xml:id="P3.alt.34">None of them had a cure.</l>
 
             <milestone unit="section" rend="asterisk-left"/>
 
@@ -195,76 +211,86 @@
             <milestone unit="section" rend="asterisk-left"/>
             <pb n="3"/>
             <milestone unit="section" rend="asterisk-left" change="#change-a"/>
-            <metamark change="#change-a" style="line" place="margin">
-               <metamark change="#change-b" style="parenthesis" place="margin"><lg>
-                     <metamark change="#change-a" style="asterisk" place="above"/>
-                     <l xml:id="P3.57">Rumours flew on the wind -</l>
-                     <l xml:id="P3.58">Nails of steel on the wind -</l>
-                  </lg></metamark>
-               <metamark change="#change-b" style="line" place="margin"><lg>
-                     <metamark change="#change-a" style="asterisk" place="above"/>
-                     <!-- milestone added -->
-                     <note change="#change-a" place="margin">- needs more.</note>
-                     <l xml:id="P3.59"><metamark change="#change-b" style="circle">Honour</metamark>
-                        was the jewel,</l>
-                     <l xml:id="P3.60">not mother, sister.</l>
-                  </lg></metamark>
-               <note change="#change-c" place="margin">honour holds so much weight here, it would be
-                  good to have more about it</note>
-               <note change="#change-a" place="inline" type="alternative">Save their
-                     <unclear>honour</unclear>!</note>
-               <lg>
-                  <l xml:id="P3.61">Bonfires were lit</l>
-                  <l xml:id="P3.62">and the women burned.</l>
-               </lg>
-               <lg>
-                  <l xml:id="P3.63" rend="italic">They asked to do this,</l>
-                  <l xml:id="P3.64" rend="italic">but I ran away.</l>
-                  <l xml:id="P3.65" rend="italic">I couldn't set fire to my sister.</l>
-                  <metamark change="#change-b" style="exclamation-mark"/>
-               </lg>
-               <note change="#change-a" type="order" place="margin"><hi rend="circle">7</hi>?</note>
-               <milestone unit="section" rend="asterisk-left"/>
-               <metamark change="#change-a" style="line" place="margin"><lg>
-                     <note change="#change-a" type="alternative" place="above"><subst>
-                           <del>Save our honour</del>
-                           <add>To save their honour</add>
-                        </subst>!</note>
-                     <l xml:id="P3.66">90 women jumped into a well.</l>
-                     <note change="#change-b" place="margin">- why?</note>
-                     <note change="#change-a" place="margin">- take out italics.</note>
-                     <l xml:id="P3.67">There wasn't enought water</l>
-                     <l xml:id="P3.68">to drown them all.</l>
-                  </lg></metamark>
-               <note change="#change-c" place="margin">move, please! very strong but requires some
-                  explanation</note>
-               <milestone unit="section" rend="asterisk-left"/></metamark>
+            <metamark change="#change-a" style="line" place="margin" target="#P3.57" spanTo="#P3.68"/>
+            <metamark change="#change-b" style="parenthesis" place="margin" target="#P3.57"
+               spanTo="#P3.58"/>
+            <lg>
+               <metamark change="#change-a" style="asterisk" place="above"/>
+               <l xml:id="P3.57">Rumours flew on the wind -</l>
+               <l xml:id="P3.58">Nails of steel on the wind -</l>
+            </lg>
+            <milestone unit="section" rend="asterisk-left" change="#change-a"/>
+            <metamark change="#change-b" style="line" place="margin" target="#P3.59" spanTo="#P3.60"/>
+            <lg>
 
-            <metamark change="#change-a" style="bracket" place="margin"><note>earlier?</note><lg>
-                  <note change="#change-a" type="order" place="margin"><hi rend="circle"
-                     >8</hi></note>
-                  <l xml:id="P3.69">And the rumour of a rumour</l>
-               </lg>
-               <lg>
-                  <l xml:id="P3.70">And the acting on a rumour</l>
-               </lg>
-               <lg>
-                  <l xml:id="P3.71">And the kernel of a rumour</l>
-                  <note change="#change-c" place="margin">Implies Amma leaves because of a rumour -
-                        <sic>intensional</sic>?</note>
-               </lg></metamark>
+
+               <note change="#change-a" place="margin">- needs more.</note>
+               <l xml:id="P3.59"><metamark change="#change-b" style="circle">Honour</metamark> was
+                  the jewel,</l>
+               <l xml:id="P3.60">not mother, sister.</l>
+            </lg>
+            <note change="#change-c" place="margin" hand="#editor">honour holds so much weight here,
+               it would be good to have more about it</note>
+            <note change="#change-a" place="inline" type="alternative">Save their
+                  <unclear>honour</unclear>!</note>
+            <lg>
+               <l xml:id="P3.61">Bonfires were lit</l>
+               <l xml:id="P3.62">and the women burned.</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.63" rend="italic">They asked to do this,</l>
+               <l xml:id="P3.64" rend="italic">but I ran away.</l>
+               <l xml:id="P3.65" rend="italic">I couldn't set fire to my sister.</l>
+               <metamark change="#change-b" style="exclamation-mark"/>
+            </lg>
+            <note change="#change-a" type="order" place="margin"><hi rend="circle">7</hi>?</note>
+            <milestone unit="section" rend="asterisk-left"/>
+            <metamark change="#change-a" style="line" place="margin" target="#P3.66" spanTo="#P3.68"/>
+            <lg>
+               <note change="#change-a" type="alternative" place="above"><subst>
+                     <del>Save our honour</del>
+                     <add>To save their honour</add>
+                  </subst>!</note>
+               <l xml:id="P3.66">90 women jumped into a well.</l>
+               <note change="#change-b" place="margin">- why?</note>
+               <note change="#change-a" place="margin">- take out italics.</note>
+               <l xml:id="P3.67">There wasn't enought water</l>
+               <l xml:id="P3.68">to drown them all.</l>
+            </lg>
+            <note change="#change-c" place="margin" hand="#editor">move, please! very strong but
+               requires some explanation</note>
+            <milestone unit="section" rend="asterisk-left"/>
+
+            <metamark change="#change-a" style="bracket" place="margin" target="#P3.69"
+               spanTo="#P3.71"/>
+            <note change="#change-a" place="margin-left">earlier?</note>
+            <lg>
+               <note change="#change-a" type="order" place="margin"><hi rend="circle">8</hi></note>
+               <l xml:id="P3.69">And the rumour of a rumour</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.70">And the acting on a rumour</l>
+            </lg>
+            <lg>
+               <l xml:id="P3.71">And the kernel of a rumour</l>
+               <note change="#change-c" place="margin" hand="#editor">Implies Amma leaves because of
+                  a rumour - <sic>intensional</sic>?</note>
+            </lg>
 
             <milestone unit="section" rend="asterisk-left"/>
 
             <lg>
                <l xml:id="P3.72">The wisdom was to go.</l>
             </lg>
-            <metamark change="#change-c" style="bracket" place="margin">?<lg>
-                  <l xml:id="P3.73">Departure -</l>
-                  <l xml:id="P3.74" rend="centre-left">the noble,</l>
-                  <l xml:id="P3.75" rend="centre-right">fruitful,</l>
-                  <l xml:id="P3.76" rend="right">hopeful thing</l>
-               </lg></metamark>
+            <metamark change="#change-c" style="bracket" place="margin" target="#P3.73"
+               spanTo="#P3.76"/>
+            <note change="#change-b" place="margin">?</note>
+            <lg>
+               <l xml:id="P3.73">Departure -</l>
+               <l xml:id="P3.74" rend="centre-left">the noble,</l>
+               <l xml:id="P3.75" rend="centre-right">fruitful,</l>
+               <l xml:id="P3.76" rend="right">hopeful thing</l>
+            </lg>
 
             <milestone unit="section" rend="asterisk-left"/>
 
