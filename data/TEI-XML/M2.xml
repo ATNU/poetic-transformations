@@ -23,13 +23,15 @@
 				<!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
 				<listChange>
 					<change xml:id="change-a" rend="blue">Original, pen, blue ink</change>
-					<change xml:id="change-b" rend="blue">Second phase of revision in same colour</change>
+					<change xml:id="change-b" rend="blue">Second phase of revision in same
+						colour</change>
 				</listChange>
 			</creation>
 		</profileDesc>
 	</teiHeader>
 	<text>
 		<body>
+			<pb n="1"/>
 
 			<div type="poem">
 				<head xml:id="M2.heading1" rend="underline">Pakistan, they said to her</head>
@@ -49,8 +51,8 @@
 				</lg>
 
 				<lg>
-					<l xml:id="M2.7">To the East and West, where<add place="above">ver</add>
-						you looked</l>
+					<l xml:id="M2.7">To the East and West, where<add place="above">ver</add> you
+						looked</l>
 					<l xml:id="M2.8">Pakistan persisted.</l>
 				</lg>
 
@@ -60,8 +62,7 @@
 				</lg>
 
 				<lg>
-					<l xml:id="M2.11">So would
-						<subst change="#change-b">
+					<l xml:id="M2.11">So would <subst change="#change-b">
 							<del>there be migration</del>
 							<add place="above">
 								<subst change="#change-b">
@@ -70,8 +71,7 @@
 								</subst>
 							</add>
 							<add change="change-b" place="below">
-								<del>there be
-								</del>
+								<del>there be </del>
 								<hi rend="underline">movement</hi>
 							</add>
 						</subst>
@@ -80,10 +80,8 @@
 				</lg>
 
 				<lg>
-					<l xml:id="M2.13">Was the
-						<del change="#change-b">
-							promised land</del>
-						a resting tiger</l>
+					<l xml:id="M2.13">Was the <del change="#change-b"> promised land</del> a resting
+						tiger</l>
 					<l xml:id="M2.14">front paws, back paws.)?</l>
 				</lg>
 
@@ -93,9 +91,10 @@
 						<subst change="#change-b">
 							<del>lay in wait.</del>
 							<add place="above">lying in wait?</add>
-						</l>
-					</lg>
-				</div>
-			</body>
-		</text>
-	</TEI>
+						</subst>
+					</l>
+				</lg>
+			</div>
+		</body>
+	</text>
+</TEI>
