@@ -23,12 +23,14 @@
             <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
             <listChange>
                <change xml:id="change-a" rend="blue">Pen, blue ink</change>
+               <change xml:id="change-b" rend="blue">Pen, blue ink</change>
             </listChange>
          </creation>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
          <div type="poem">
             <head xml:id="P1.heading1">2 Must We Go?</head>
             <lg>
@@ -116,15 +118,17 @@
                <l xml:id="P1.29" rend="italic">Will we got to school</l>
             </lg>
 
+            <pb n="2"/>
+
             <lg>
                <l xml:id="P1.30">Only Athar had no questions.</l>
             </lg>
 
             <lg>
-               <l xml:id="P1.31"><note xml:id="P1.note1" change="#change-a" place="margin"
+               <l xml:id="P1.31"><note xml:id="P1.note1" change="#change-b" place="margin"
                      type="later-change">name.</note>My <hi change="change-a" rend="underline"
-                     >grand</hi>father <del><add change="#change-a" place="above">his
-                     father</add></del>, himself a doctor,</l>
+                     >grand</hi>father <del change="#change-b"><add change="#change-a" place="above"
+                        >His father</add></del>, himself a doctor,</l>
                <l xml:id="P1.32">had travelled far and wide,</l>
             </lg>
 
@@ -199,6 +203,8 @@
                <l xml:id="P1.59">Pakistan.</l>
             </lg>
 
+            <pb n="3"/>
+
             <milestone unit="section" rend="asterisk-left"/>
 
             <lg>
@@ -245,17 +251,17 @@
                <l xml:id="P1.76"> her neighbourhood was emptying -</l>
                <l xml:id="P1.77"> whole families had stolen away.</l>
             </lg>
-            
+
             <lg>
                <l xml:id="P1.78"> Which way to face?</l>
                <l xml:id="P1.79"> She wrote to her son in England:</l>
             </lg>
-            
+
             <lg>
                <l xml:id="P1.80" rend="italic"> I pray for our safety at this time.</l>
                <l xml:id="P1.81" rend="italic"> We will go by bus to Lahore.</l>
             </lg>
-            
+
          </div>
       </body>
    </text>
