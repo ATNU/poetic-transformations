@@ -30,6 +30,7 @@
 	</teiHeader>
 	<text>
 		<body>
+			<pb n="1"/>
 
 			<div type="poem">
 				<head xml:id="M3.heading1" rend="underline">Pakistan, they said to her.</head>
