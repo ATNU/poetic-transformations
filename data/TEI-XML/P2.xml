@@ -76,31 +76,31 @@
                <l xml:id="P2.16">to feel compelled to <subst>
                      <del change="#change-a">leave</del>
                      <add place="below"><unclear>exchange</unclear></add>
-                  </subst>
-                  <metamark style="tick" place="above">it</metamark></l>
+                  </subst> it<metamark style="tick" place="above" function="confirmation"/></l>
             </lg>
 
-            <metamark change="#change-a" style="line"><lg>
-                  <l xml:id="P2.17">for one which <subst change="#change-a">
-                        <del>you</del>
-                        <add>you</add>
-                     </subst> had always <subst change="#change-a">
-                        <del>known</del>
-                        <add place="above"><subst change="#change-a">
-                              <del>been</del>
-                              <add place="inline"><del>been</del> seen</add>
-                           </subst></add>
-                     </subst></l>
-                  <l xml:id="P2.18"><subst change="#change-a">
-                        <del>to be </del>
-                        <add place="margin">as.</add>
-                     </subst>a corner of your<add change="#change-a" place="above">s</add>
-                     <metamark style="tick"><del>own</del>,</metamark></l>
-               </lg>
-               <lg>
-                  <l xml:id="P2.19">but has become swiftly and deliriously</l>
-                  <l xml:id="P2.20">another -</l>
-               </lg></metamark>
+            <metamark change="#change-b" style="line" target="#P.17" spanTo="#P2.20"/>
+            <lg>
+               <l xml:id="P2.17">for one which <subst change="#change-a">
+                     <del>you</del>
+                     <add>you</add>
+                  </subst> had always <subst change="#change-a">
+                     <del>known</del>
+                     <add place="above"><subst change="#change-a">
+                           <del>been</del>
+                           <add place="inline"><del>been</del> seen</add>
+                        </subst></add>
+                  </subst></l>
+               <l xml:id="P2.18"><subst change="#change-a">
+                     <del>to be </del>
+                     <add place="margin">as.</add>
+                  </subst>a corner of your<add change="#change-a" place="above">s</add>
+                  <del>own</del>,<metamark style="tick" place="inline" function="confirmation"/></l>
+            </lg>
+            <lg>
+               <l xml:id="P2.19">but has become swiftly and deliriously</l>
+               <l xml:id="P2.20">another -</l>
+            </lg>
 
             <lg>
                <l xml:id="P2.21">and which beckons</l>
