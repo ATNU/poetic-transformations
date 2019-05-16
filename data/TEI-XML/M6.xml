@@ -29,6 +29,7 @@
    </teiHeader>
    <text>
       <body>
+         <pb n="1"/>
          <div type="poem">
             <head xml:id="M6.heading1" rend="underline">Pakistan</head>
             <lg>
@@ -68,7 +69,7 @@
             <lg>
                <l xml:id="M6.19">Front paws, back paws</l>
                <l xml:id="M6.20">a restive tiger, <add change="change-b" place="above" rend="carat"
-                     >Pakistan</add> lay in wait.</l>
+                     >Pakistan,</add> lay in wait.</l>
             </lg>
          </div>
       </body>
