@@ -20,6 +20,11 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Proof</term>
+            </keywords>
+         </textClass>
          <creation>
             <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
             <listChange>

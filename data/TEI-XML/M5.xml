@@ -20,6 +20,11 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Manuscript</term>
+            </keywords>
+         </textClass>
          <creation>
             <listChange>
                <change xml:id="change-a" rend="blue">Original pen, blue ink</change>

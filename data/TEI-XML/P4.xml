@@ -13,13 +13,18 @@
             <authority>Poetic Transformations Project</authority>
             <idno type="PTpoem">Alvi1</idno>
             <idno type="PTid">P4</idno>
-         </publicationStmt>
+            </publicationStmt>
          <sourceDesc>
             <p/>
             <!-- Call number for this? -->
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Proof</term>
+            </keywords>
+         </textClass>
          <creation>
             <!-- More useful in M4 (and others presumably) where we have different colour ink to distinguish different stages of production -->
             <listChange>
